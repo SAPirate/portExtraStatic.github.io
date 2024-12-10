@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="train.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap" rel="stylesheet"> 
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Ticket Purchase Form</title>
+</head>
+<body>
+    <div class="list">
+        <ul>
+          <li data-tab-target="#view" class=" active tabs">view transport</li>
+          <li data-tab-target="#form" class="tabs">booking form</li>
+        </ul>
+      </div>
+      <div class="tab-content" style="background-color: #f0f0f0;">
+        <div id="view" data-tab-content  class="active">
+            <div class="booking">
+                <div class="bookings-link">
+                    <h1>tickets booking per train category</h1>
+                    <p> where ever you wanna go bus ridehere ever you wanna go bus ridehere ever you wanna go bus ride. johannestrains 
+                        proive you with transportation for all days of the depending on your destination period
+                    </p>
+                    <div class="box-link">
+                        <div class="box-info">
+                        <h2>firival XLV train</h2>
+                        <img src="img/service3.jpg" alt="">
+                        <div class="rates">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        </div>
+                        <h3> <i class="fa fa-train" style="color:green"></i> pretoria pick off time </h3>
+                        <h4><i class="fa fa-clock-o"></i> 4:30 am </h4>
+                        <h4><i class="fa fa-calendar-check-o"></i> monday to sunday ,including public holidays</h4>
+                        <h4><i class="fa fa-male"></i>650 passenger seats</h4>
+                        <h5> <i class="fa fa-registered"></i> R450</h5>
+                        
+                        <!-- <button> <a href="buytrans.html">book ticket</a></button> -->
+                        </div>
+                        <div class="box-info">
+                        <h2>flee 2d train</h2>
+                        <img src="img/service.jpg" alt="">
+                        <div class="rates">
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            </div>
+                            <h3><i class="fa fa-train" style="color:green"></i> polokwane pick off time </h3>
+                            <h4> <i class="fa fa-clock-o"></i> 4:30 am </h4>
+                        <h4><i class="fa fa-calendar-check-o"></i> monday to sunday ,<span style="color:rgb(212, 91, 91)"><i class="fa fa-calendar-minus-o"></i> excluding</span> public holidays</h4>
+                        <h4><i class="fa fa-male"></i> 1000 passenger seats</h4>
+                        <h5> <i class="fa fa-registered"></i> R380</h5>
+                    
+                        <!-- <button> <a href="buytrans2.html">book ticket</a></button> -->
+                        </div>
+                        <div class="box-info">
+                        <h2>regular c XLV train</h2>
+                        <img src="img/service2.jpg" alt="">
+                        <div class="rates">
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            </div>
+                            <h3><i class="fa fa-train" style="color:green"></i> gauteng pick off time </h3>
+                            <h4> <i class="fa fa-clock-o"></i> 4:30 am </h4>
+                        <h4> <i class="fa fa-calendar-check-o"></i> monday to sunday ,including public holidays</h4>
+                        <h4> <i class="fa fa-male"></i> 720 passenger seats</h4>
+                        <h5> <i class="fa fa-registered"></i> R300</h5>
+                    
+                        <!-- <button> <a href="buytrans.html">book ticket</a></button> -->
+                        </div>
+                    </div>
+                </div>
+            </div>
+            </div>
+            </div>
+            <!--  -->
+<div class="tab-content" style="background-color: #f0f0f0;">
+  <div id="form" data-tab-content>
+    <div class="form-container">
+    <h1>Ticket Purchase</h1>
+    <form id="ticketForm">
+        <input type="text" id="name" placeholder="Enter your name" required>
+        <input type="text" id="surname" placeholder="Enter your surname" required>
+        <input type="text" id="identity" placeholder="Enter your identity number" required>
+        <input type="email" id="email" placeholder="Enter your email address" required>
+        <input type="text" id="pickup" placeholder="Pick up location" required>
+        <input type="text" id="destination" placeholder="Destination" required>
+        <input type="date" id="date" placeholder="Date" required>
+        <input type="number" id="tickets" placeholder="Number of tickets" required>
+        
+        <div class="select">
+            <label for="train-select">Choose a train:</label>
+            <select id="train-select">
+                <option value="">Select a train</option>
+                <option value="firival">Firival train - R420</option>
+                <option value="flee">Flee 2D train - R450</option>
+                <option value="regular">Regular train - R320</option>
+            </select>
+        </div>
+
+        <div class="select">
+            <label for="time-select">Choose a Time:</label>
+            <select id="time-select">
+                <option value="8:00 AM">8:00 AM</option>
+                <option value="3:30 PM">3:30 PM</option>
+                <option value="6:00 PM">6:00 PM</option>
+                <option value="5:00 PM">5:00 PM</option>
+            </select>
+        </div>
+
+        <button type="submit">Buy Ticket</button>
+    </form>
+</div>
+</div>
+</div>
+
+<!-- Popup Modal -->
+<div class="popup-overlay" id="popup-overlay"></div>
+<div class="popup" id="popup">
+    <h3>Ticket Information</h3>
+    <div id="popup-content"></div>
+    <button class="confirm-btn" id="confirm-popup">Confirm Details</button>
+</div>
+
+<!--  -->
+<div class="footer">
+    <p>railway system||made@sknewa.ac.za</p>
+</div>
+
+</body>
+<script src="train.js"></script>
+</html>

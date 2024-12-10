@@ -1,0 +1,168 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.nav{
+    padding: 10px;
+    background-color: rgb(207, 52, 52);
+    margin: 2% 10%;
+}
+@media (max-width:500px){
+    .nav{
+        margin:1% 3%;
+    }
+}
+.nav a{
+    background-color: #fff;
+    color: #333;
+    padding: 2px solid #555;
+    border-radius: 3px;
+    padding: 5px 20px;
+    margin-left: 2%;
+}
+.nav img{
+    height: 50px;
+    width: 50px;
+    border-radius: 100px;
+}
+/*  */
+.quize-container{
+    margin:1% 10%;
+    box-shadow: 4px 4px 4px solid red;
+    border: 2px solid rgb(207, 52, 52);
+    background-color: #eee;
+    height: 80vh;
+    overflow-y: scroll;
+
+}
+@media (max-width:500px){
+    .quize-container{
+        margin:1% 3%;
+    }
+}   
+.quize p{
+    font-family:'Roboto', sans-serif;
+    text-align: left;
+    text-transform: capitalize;
+    font-size: 18px;
+    color: #333;
+    padding: 3px;
+    margin-top: 2%;
+    margin-bottom: 1%;
+}
+.gowns-info .quize .input{
+    font-family:'Roboto', sans-serif;
+    text-align: left;
+    text-transform: capitalize;
+    font-size: 18px;
+    color: #333;
+    padding: 10px;
+    width: 50%;
+    margin-bottom: 1%;
+    margin-top: 1%;
+    background-color: #f6e1e1;
+}
+/*  */
+.list-container-one{
+    background-color: rgb(61, 129, 126);
+}
+[data-tab-content]{
+    display: none;
+}
+[data-tab-content].active{
+    display: block;
+   
+}
+.list ul{
+    /* border: 1px solid #cacdd6; */
+    background-color: #FFFFFF;
+    border-radius: 6px;
+    /* border-radius: 6px; */
+    padding: 7px;
+    margin-bottom: 1vh;
+    margin-top: 4vh;
+    margin: 1% 0%;
+}
+.list ul li{
+    padding: 6px;
+    margin-bottom: 2vh;
+    color: #111827;
+}
+.list .tabs{
+    display: inline-block;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    list-style-type: none;
+    margin: 0;
+    padding: 4px 15px;
+    cursor: pointer;
+    background-color:rgb(94, 83, 56);
+    border: 1px solid #EEE;
+    text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 16px;
+    color: #EEE;
+    text-transform: uppercase;
+    margin-top: 1vh;
+    border-radius: 4px;
+   
+
+}
+.list .tabs:hover{
+    color: rgb(19, 18, 18);
+    background-color: #386664;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.list .tabs.active{
+    background-color: #386664;
+    color: #EEE;
+    border-radius: 4px;
+}
+
+.tab-content{
+    margin: 2% 5%;
+    border-radius: 6px;
+   
+}
+
+.tab-content h1{
+    font-size: 25px;
+    text-transform: capitalize;
+    text-align: center;
+    margin-bottom: 2vh;
+    text-align: center;
+    color: rgb(19, 18, 18);
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 7px;
+    
+}
+.gowns-info h3{
+    padding: 8px;
+    color: rgb(19, 18, 18);
+    margin-bottom: 2vh;
+    font-size: 20px;
+    text-transform: capitalize;
+    font-family:Arial, Helvetica, sans-serif;
+}
+.button{
+    align-items: center;
+    text-align: center;
+    padding-bottom: 1%;
+}
+.button button{
+    background-color: #fff;
+    color: rgb(213, 94, 50);
+    border: 2px solid rgb(213, 94, 50);
+    border-radius: 100px;
+    padding: 4px 40px;
+    
+}
+@media (max-width:500px){
+    .button button{
+        margin:1% 3%;
+        width: 100%;
+        padding: 4px;
+    }
+}

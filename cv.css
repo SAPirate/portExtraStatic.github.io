@@ -1,0 +1,148 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    margin: 1% 1%;
+    /* border: 1px solid rgb(53, 19, 116); */
+    display: flex;
+}
+@media (max-width:500px){
+    .container{
+        display: block;
+    }
+      }
+.left-class{
+    width: 30%;
+    background-color: rgb(53, 19, 116);
+}
+@media (max-width:500px){
+   .left-class{
+    width: 100%;
+   }
+     }
+.left-class-content{
+    margin: 4% 4%;
+    padding: 7px;
+}
+.names h2{
+    color: #dddddd;
+    font-size: 16px;
+    text-align: center;
+    padding: 7px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-transform: uppercase;
+}
+.names h1{
+    color: #dddddd;
+    font-size: 21px;
+    text-align: center;
+    padding: 7px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-transform: uppercase;
+}
+.title{
+    margin-top: 3%;
+}
+.title h2{
+    color: #acacac;
+    font-size: 18px;
+    text-align: left;
+    font-family: Arial, Helvetica, sans-serif;
+    text-transform: uppercase;
+    font-weight: 200;
+    padding: 7px;
+}
+.headings-container{
+    margin-top: 5%;
+}
+.headings-container .headings h2{
+    color: #dddddd;
+    font-size: 18px;
+    text-align: left;
+    font-family: Arial, Helvetica, sans-serif;
+    text-transform: capitalize;
+    font-weight: 300;
+    background-color: rgba(0,0,0,0.1);
+    padding: 10px;
+}
+.list{
+    margin-top: 5%;
+}
+.list p{
+    text-align: left;
+    font-family: Arial, Helvetica, sans-serif; 
+    color: #dddddd;
+    font-size: 17px;
+    padding: 7px;
+}
+.right-class{
+    width: 70%;
+}
+@media (max-width:500px){
+    .right-class{
+     width: 100%;
+    }
+      }
+.right-class i{
+    margin: 2% 2%;
+    color: #dddddd;
+    font-size: 17px;
+    background-color: rgb(53, 19, 116);
+    padding: 7px;
+    border-radius: 100px;
+    border: 2px solid rgb(53, 19, 116);
+}
+.side-list{
+    border-left: 3px solid rgb(53, 19, 116);
+    margin: 0% 4%;
+}
+.document{
+    margin: 0% 3%;
+}
+.right-header h1{
+    color: #000;
+    font-size: 20px;
+    text-align: left;
+    font-family: Arial, Helvetica, sans-serif;
+    text-transform: uppercase;
+    font-weight: 600;
+    padding: 7px; 
+}
+.short-header h2{
+    color: #000;
+    font-size: 17px;
+    text-align: left;
+    font-family: Arial, Helvetica, sans-serif;
+    text-transform: uppercase;
+    font-weight: 300;
+    padding: 7px; 
+}
+.title-under{
+    color: darkslategray;
+    font-size: 14px;
+    text-align: left;
+    font-family: Arial, Helvetica, sans-serif;
+    text-transform: capitalize;
+    font-weight: 100;
+    padding: 7px;  
+}
+.right-list-drop{
+    margin-top: 2%;
+}
+.right-list-drop ul{
+    margin: 0% 2%;
+}
+.right-list-drop ul li{
+
+}
+.right-list-drop ul li p{
+    color: #000;
+    font-size: 14px;
+    text-align: left;
+    font-family: Arial, Helvetica, sans-serif;
+    text-transform: capitalize;
+    font-weight: 100;
+    padding: 7px; 
+}
